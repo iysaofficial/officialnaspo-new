@@ -43,9 +43,14 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4 className="footer-title">Link Cepat</h4>
-          <Link href="/registration/homeindo" legacyBehavior>
+          <Link href="/faq" legacyBehavior>
             <a className="footer-link">
-              <span className="footer-arrow">›</span> Registration NASPO
+              <span className="footer-arrow">›</span> FAQ
+            </a>
+          </Link>
+          <Link href="/faq" legacyBehavior>
+            <a className="footer-link">
+              <span className="footer-arrow">›</span> KONTAK
             </a>
           </Link>
         </div>
