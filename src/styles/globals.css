@@ -1994,6 +1994,7 @@ input[type="checkbox"] {
     font-size: 1.4rem;
   }
 }
+<<<<<<< HEAD
 
 /* ====== General Section & Category Styling ====== */
 
@@ -2082,5 +2083,6 @@ input[type="checkbox"] {
   .category-list {
     flex-direction: column;
     gap: 16px;
+    /* margin: 0 auto; */
   }
 }
