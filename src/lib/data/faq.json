@@ -1,0 +1,113 @@
+{
+  "SetelahMendaftar":[
+  {
+    "id": 1,
+    "title": "1. Minsa, kapan kami akan mendapatkan LoA kami? Dikirimnya kemana sih?",
+    "text": "Setelah pendaftaran kamu kami terima, kami akan mengirimkan email konfirmasi selambatnya 1X24 jam, dan untuk LoA akan kami kirimkan ke alamat email ketua tim selambatnya 3X24 jam setelah pendaftaran."
+  },
+  {
+    "id": 2,
+    "title": "2. Minsa, aku sudah daftar satu minggu yang lalu tapi kok aku belum terima LoA dan Invoice ya?",
+    "text": "Coba deh cek folder spam di email ketua tim kamu, mungkin email dari tim IYSA masuk ke folder spam."
+  },
+  {
+    "id": 3,
+    "title": "3. Upload berkas lomba di mana sih Minsa?",
+    "text": "Link drive untuk upload berkas dan link untuk upload bukti pembayaran akan dicantumkan di invoice.",
+    "bagian2": ""
+  },
+  {
+    "id": 4,
+    "title": "4. Aku mau bayar biaya registrasi nih tapi kok aku tidak bisa menemukan Invoicenya ya? dan pembayarannya di transfer kemana sih?",
+    "text": "Hayo kamu sudah baca LoA sampai tuntas belum? Karena Invoice kami kirimkan bersama LoA tim kamu, pastikan kamu sudah membaca email dari kami hingga tuntas yaa! Untuk pembayaran, kamu bisa transfer ke rekening yang tertera di dalam invoice ya. Pastikan kamu membayar sesuai dengan nominal yang tertera di invoice, oke!",
+    "bagian2": ""
+  },
+  {
+    "id": 5,
+    "title": "5. Minsa, aku sudah bayar biaya registrasinya nih, upload bukti pembayarannya kemana ya?",
+    "text": "Jika sudah melakukan pembayaran, kamu bisa upload buktinya ke link yang tercantum di invoice, dan pastikan kamu mengisi dan mengupload bukti transfer dengan benar agar panitia dapat mendatanya dengan benar juga.",
+    "bagian2": ""
+  },
+  {
+    "id": 6,
+    "title": "6. Kalau kuitansinya kapan dikirimkan ke kami?",
+    "text": "Kuitansi pembayaran akan kami kirimkan maksimal 7 hari kerja ke email ketua tim, setelah kamu upload bukti pembayaran ya!",
+    "bagian2": ""
+  },
+  {
+    "id": 7,
+    "title": "7. Minsa, satu minggu lagi penjurian nih kok aku belum terima jadwal presentasi tim aku ya?",
+    "text": "Jadwal presentasi peserta online akan kami kirimkan selambatnya 2 hari sebelum penjurian berlangsung ke whatsapp grup dan juga email ketua tim. Pastikan kamu rajin cek informasi yang kami berikan di whatsapp grup dan juga email ya!",
+    "bagian2": ""
+  }
+],
+  "SelamaEventBerlangsung": [
+    {
+      "id": 1,
+      "title": "1. Kapan jadwal presentasi akan diberikan oleh panitia?",
+      "text": " Jadwal presentasi akan kami berikan selambatnya 2 hari sebelum penjurian berlangsung atau bisa juga lebih cepat, dan kami kirimkan melalui WA grup dan juga e-mail ketua tim."
+    },
+    {
+      "id": 2,
+      "title": "2. Presentasi online menggunakan aplikasi apa? Zoom,Google meet atau yg lainnya?",
+      "text": "Untuk penjurian online kami selalu memakai aplikasi Zoom ya teman-teman, dan pastikan aplikasi Zoom kamu sudah yang terbaru yaa.."
+    },
+    {
+      "id": 3,
+      "title": "3. Kapan link zoom akan di berikan oleh panitia?",
+      "text": "Link Zoom akan kami berikan dihari penjurian, dan akan kami kirim berkala di grup sesuai jam presentasi tim kalian"
+    },
+    {
+      "id": 4,
+      "title": " 4. Berapa banyak akun zoom yang bisa join dan penamaannya seperti apa?",
+      "text": "Teman-teman bisa masuk ke Zoom maksimal dengan 5 akun untuk peserta,dan semua akun Zoom harus mengikuti format nama yang sudah kami berikan yaitu 'Nomor ruangan_Nama Ketua Tim_Nama Institusi' s"
+    },
+    {
+      "id": 5,
+      "title": "5. Berapa durasi peserta melakukan presentasi?",
+      "text": "Teman-teman akan diberikan waktu 15 menit untuk 1 sesi presentasi yang akan dibagi 2 yaitu 7 menit awal untuk presentasi dan 8 menit akhir untuk sesi tanya jawab dengan juri"
+    },
+    {
+      "id": 6,
+      "title": "6. Berapa juri yang akan datang ke booth peserta offline kak?",
+      "text": " Sama seperti penjurian online, akan ada 2 juri yang menjurikan setiap tim. Dan setelah selesai dijurikan kamu akan diberikan stiker sebagai tanda booth kamu sudah dijurikan, pastikan kamu mendapatkan 2 stiker ya"
+    },
+    {
+      "id": 7,
+      "title": " 7. Apakah setelah dijurikan kami bisa langsung merapikan booth kami?",
+      "text": "Kamu bisa mulai merapikan booth ketika semua tim sudah selesai dijurikan ya, jadi kalau kamu sudah selesai dijurikan kamu bisa berkunjung dulu ke booth peserta lain"
+    }
+  ],
+  "SetelahAcara": [
+    {
+      "id": 1,
+      "title": "1. Kapan pemngumuman pemenang?",
+      "text": "Pengumuman pemenang dilaksanakan pada hari terakhir disetiap event,kamu bisa cek tanggalnya di jadwal yang tertera di Guide Book."
+    },
+    {
+      "id": 2,
+      "title": "2. Di mana kami bisa melihat hasil pemenang",
+      "text": " Kamu bisa cek hasil pemenang di official website dari event yang kamu ikuti"
+    },
+    {
+      "id": 3,
+      "title": "3. Kapan E-certificate akan dikirmkans",
+      "text": "IYSA TIDAK mengirimkan E-Certificate untuk peserta Nasional atau Peserta Indonesia yang mengikuti event secara online. Peserta Nasional Online hanya akan mendapatkan sertifikat dalam bentuk TERCETAK/Hard yang nantinya akan dikirimkan bersama dengan medali melalui ekspedisi JNE"
+    },
+    {
+      "id": 4,
+      "title": "4. Kapan pengiriman sertifikat peserta online?",
+      "text": "Sertifikat akan dikirimkan selambatnya satu bulan setelah pengumuman pemenang. Kamu bisa cek secara berkala resi pengiriman yang kami kirimkan di Whatsapp grup apakah sertifikat kamu sudah dikirim atau belum."
+    },
+    {
+      "id": 5,
+      "title": "5. Dimana kami bisa mendapatkan sertifikat supervisor/pembimbing?",
+      "text": "Kamu bisa melihat dan mengunduh sertifikat supervisor/pembimbing di official website dari event yang kamu ikuti"
+    },
+    {
+      "id": 6,
+      "title": "6. Bagaimana cara melakukan penggandaan medali?",
+      "text": " Untuk peserta offline kamu bisa langsung melakukan penggandaan medali di tempat setelah pengumuman pemenang berlangsung. Dan untuk peserta online kamu bisa melakukan penggandaan medali melalui link yang kami kirimkan di Whatsapp grup, kami akan mengirimkan informasi penggandaan di Whatsapp grup selambatnya 2 hari setelah pengumuman pemenang."
+    }
+  ]
+}
