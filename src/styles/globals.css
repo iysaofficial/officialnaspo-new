@@ -118,7 +118,7 @@
   justify-content: space-between;
 }
 .footer-col {
-  flex: 1 1 220px;
+  flex: 1 1 100px;
   min-width: 200px;
   margin-bottom: 24px;
 }
