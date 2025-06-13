@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 const menu = [
   { label: "Beranda", href: "/" },
-  { label: "Daftar Pemenang", href: "/daftar-pemenang" },
+  { label: "Daftar Pemenang", href: "/daftarpemenang/daftar-pemenang" },
   {
     label: "Sertifikat",
     submenu: [
