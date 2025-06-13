@@ -25,7 +25,7 @@ const jenjanglist = [
       />
       <section className="winner-content">
         <h2 className="winner-subtitle">Daftar Pemenang</h2>
-        <p>Pilih berdasarkan Level Pendidikan di event online yang kamu ikuti</p>
+        <p>Pilih berdasarkan Level Pendidikan di event offline yang kamu ikuti</p>
         <div className="winner-year-list">
            {jenjanglist.map((t) =>
             t.target === "_blank" ? (
