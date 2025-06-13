@@ -1994,7 +1994,6 @@ input[type="checkbox"] {
     font-size: 1.4rem;
   }
 }
-<<<<<<< HEAD
 
 /* ====== General Section & Category Styling ====== */
 
@@ -2085,4 +2084,125 @@ input[type="checkbox"] {
     gap: 16px;
     /* margin: 0 auto; */
   }
+}
+
+/* ====== News Page ====== */
+.news-section {
+  background: #f8fafd;
+  min-height: 100vh;
+  padding-bottom: 48px;
+}
+
+.news-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 0 0 32px 0;
+  color: #23243a;
+  padding-top: 32px;
+}
+
+.news-list {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.news-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px #4e4e4f44;
+  overflow: hidden;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ad7e7e;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.news-card:hover {
+  background: #c9b3b3;
+  color: #fff !important;
+}
+
+.news-img-wrap {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.news-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.news-card-body {
+  padding: 22px 20px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.news-card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #23243a;
+}
+
+.news-card-desc {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .news-list {
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+  .news-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 700px) {
+  .news-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .news-card {
+    width: 98%;
+    max-width: 98vw;
+  }
+  .news-title {
+    font-size: 2rem;
+  }
+}
+
+.news-card-btn {
+  margin-top: 18px;
+  background: linear-gradient(90deg,#7f53ac,#647dee);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #7f53ac33;
+  transition: background 0.2s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.news-card-btn:hover {
+  background: linear-gradient(90deg,#647dee,#7f53ac);
 }

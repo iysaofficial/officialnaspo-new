@@ -80,7 +80,7 @@ const menu = [
   {
     label: "Liputan Media",
     submenu: [
-      { label: "Berita dari Media", href: "/" },
+      { label: "Berita dari Media", href: "/berita" },
       {
         label: "Press Release 2024",
         target: "_blank",
