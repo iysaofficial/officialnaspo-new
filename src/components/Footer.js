@@ -48,7 +48,7 @@ export default function Footer() {
               <span className="footer-arrow">›</span> FAQ
             </a>
           </Link>
-          <Link href="/faq" legacyBehavior>
+          <Link href="/kontak" legacyBehavior>
             <a className="footer-link">
               <span className="footer-arrow">›</span> KONTAK
             </a>
