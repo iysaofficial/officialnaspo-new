@@ -13,8 +13,8 @@ export default function MainHero() {
                 <a href="#" className="main-hero-btn">
                   Segera Hadir 2025 &nbsp; <span aria-hidden>→</span>
                 </a>
-                <a href="#" className="main-hero-btn">
-                  Buku Panduan &nbsp; <span aria-hidden>→</span>
+                <a href="https://drive.google.com/file/d/1QmfxmEzTAIf2Vkzcy3bwzjVzaFTEfi7R/view?usp=sharing" target="_blank" className="main-hero-btn">
+                  Buku Panduan 2024 &nbsp; <span aria-hidden>→</span>
                 </a>
               </div>
             </div>
