@@ -49,7 +49,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "National Applied Science Project Olympiad - Online Competition":
-        setCategoryPrice("RP 950.000");
+        setCategoryPrice("RP 900.000");
         break;
       default:
         break;
@@ -64,7 +64,7 @@ function IndonesiaOnline() {
     }
   }, [router]);
 
-  const scriptURL = "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzODtRHGjNb3EB1-wGxjIAHwifmcXh7QVjpLnQVCI4h4DXQ0zYlk0_Hj8nFw75jGTtE/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -243,7 +243,7 @@ function IndonesiaOnline() {
                     onChange={handleCategoryChange}
                     required
                   >
-                    {/* <option value="">--Pilih Kategori Kompetisi--</option> */}
+                    <option value="">--Pilih Kategori Kompetisi--</option>
                     <option value="National Applied Science Project Olympiad - Online Competition">
                       Online Competition
                     </option>
@@ -550,22 +550,12 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Kategori--</option>
-                    <option value="Agriculture & Aquaculture">
-                      Agriculture & Aquaculture
-                    </option>
-                    <option value="Social Science">Social Science</option>
+                    <option value="Waste Treatment">Waste Treatment</option>
+                    <option value="IoT and Its Applications">IoT and Its Applications</option>
+                    <option value="Functional Food">Functional Food</option>
                     <option value="Energy">Energy</option>
-                    <option value="Life Science">Life Science</option>
-                    <option value="Biotechnology">Biotechnology</option>
-                    <option value="Physic and Engineering">
-                      Physic and Engineering
-                    </option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Environment">Environment</option>
-                    <option value="Food Science">Food Science</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
-                    </option>
+                    <option value="Research on Children with Special Needs">Research on Children with Special Needs</option>
+                    <option value="Entrepreneurship">Entrepreneurship</option>
                   </select>
                 </div>
 
@@ -665,6 +655,8 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
+                    <option value="NASPO Website">NASPO Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="NASPO Instagram">NASPO Instagram</option>
                     <option value="Pembimbing/Sekolah">
@@ -672,8 +664,6 @@ function IndonesiaOnline() {
                     </option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="NASPO Website">NASPO Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="NASPO Email">NASPO Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>

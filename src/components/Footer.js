@@ -56,9 +56,9 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4 className="footer-title">Buku Panduan</h4>
-          <Link href="https://drive.google.com/file/d/1QmfxmEzTAIf2Vkzcy3bwzjVzaFTEfi7R/view?usp=sharing" legacyBehavior>
+          <Link href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing" legacyBehavior>
             <a className="footer-link" target="_blank" rel="noopener">
-              <span className="footer-arrow">›</span> Buku Panduan NASPO 2024
+              <span className="footer-arrow">›</span> Buku Panduan 2025
             </a>
           </Link>
         </div>

@@ -12,8 +12,16 @@ export default function OrganizedBy() {
             src="/images/logo/iysa.png"
             alt="IYSA"
             className="organizedby-logo"
-            width={120}
-            height={60}
+            width={300}
+            height={100}
+            priority
+          />
+          <Image
+            src="/images/logo/FMIPABLUE.png"
+            alt="FMIPA"
+            className="organizedby-logo"
+            width={300}
+            height={100}
             priority
           />
         </div>

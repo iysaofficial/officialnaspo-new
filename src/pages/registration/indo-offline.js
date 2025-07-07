@@ -49,6 +49,8 @@ function IndonesiaOffline() {
     switch (value) {
       case "National Applied Science Project Olympiad - Offline Competition":
         break;
+      case "National Applied Science Project Olympiad - Offline Competition + Excursion":
+        break;
       default:
         break;
     }
@@ -63,7 +65,7 @@ function IndonesiaOffline() {
     }
   }, [router]);
 
-  const scriptURL = "";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbylCdBcqr4rj_kFTohA-nKEVPn2P6tZsZ08dzNWlBej25pda1-0VW82fJm07R5E_Zqc/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -242,6 +244,9 @@ function IndonesiaOffline() {
                     <option value="">--Pilih Kategori Kompetisi--</option>
                     <option value="National Applied Science Project Olympiad - Offline Competition">
                       Offline Competition
+                    </option>
+                    <option value="National Applied Science Project Olympiad - Offline Competition + Excursion">
+                      Offline Competition + Excursion
                     </option>
                   </select>
                 </div>
@@ -546,22 +551,16 @@ function IndonesiaOffline() {
                     required
                   >
                     <option value="">--Pilih Kategori--</option>
-                    <option value="Agriculture & Aquaculture">
-                      Agriculture & Aquaculture
+                    <option value="Waste Treatment">Waste Treatment</option>
+                    <option value="IoT and Its Applications">
+                      IoT and Its Applications
                     </option>
-                    <option value="Social Science">Social Science</option>
+                    <option value="Functional Food">Functional Food</option>
                     <option value="Energy">Energy</option>
-                    <option value="Life Science">Life Science</option>
-                    <option value="Biotechnology">Biotechnology</option>
-                    <option value="Physic and Engineering">
-                      Physic and Engineering
+                    <option value="Research on Children with Special Needs">
+                      Research on Children with Special Needs
                     </option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Environment">Environment</option>
-                    <option value="Food Science">Food Science</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
-                    </option>
+                    <option value="Entrepreneurship">Entrepreneurship</option>
                   </select>
                 </div>
 
@@ -646,6 +645,8 @@ function IndonesiaOffline() {
                     required
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
+                    <option value="NASPO Website">NASPO Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="NASPO Instagram">NASPO Instagram</option>
                     <option value="Pembimbing/Sekolah">
@@ -653,8 +654,6 @@ function IndonesiaOffline() {
                     </option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="NASPO Website">NASPO Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="NASPO Email">NASPO Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
