@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MainHero() {
   return (
@@ -11,9 +12,11 @@ export default function MainHero() {
               <h1 className="main-hero-title">BUKA PENDAFTARAN</h1>
               <h1 className="main-hero-title">NASPO 2025</h1>
               <div className="main-hero-btns">
-                <a href="/registration/homeindo" className="main-hero-btn">
+                <Link href="/registration/homeindo">
+                <a className="main-hero-btn">
                   Daftar disini!!!&nbsp; <span aria-hidden>→</span>
                 </a>
+                </Link>
                 <a href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing" target="_blank" className="main-hero-btn">
                   Buku Panduan 2025 &nbsp; <span aria-hidden>→</span>
                 </a>

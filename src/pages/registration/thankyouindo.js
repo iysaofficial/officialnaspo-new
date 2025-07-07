@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -50,9 +51,11 @@ export default function ThankYouIndo() {
         <p>
           <strong>*Jika data muncul, tangkap layar halaman ini sebagai bukti pendaftaran berhasil</strong>
         </p>
-        <a href="/registration/homeindo" className="btn btn-action">
+        <Link href="/registration/indo-offline">
+        <a className="btn btn-action">
           Kembali ke menu pendaftaran
         </a>
+        </Link>
       </div>
     </section>
   );
