@@ -12,7 +12,7 @@ export default function MainHero() {
               <h1 className="main-hero-title">BUKA PENDAFTARAN</h1>
               <h1 className="main-hero-title">NASPO 2025</h1>
               <div className="main-hero-btns">
-                <Link href="/registration/homeindo">
+                <Link href="/registration/homeindo" legacyBehavior>
                 <a className="main-hero-btn">
                   Daftar disini!!!&nbsp; <span aria-hidden>→</span>
                 </a>

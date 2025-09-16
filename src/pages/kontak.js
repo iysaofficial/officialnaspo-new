@@ -2,8 +2,39 @@ import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
 import Footer from "@/components/Footer";
-
+import { useEffect } from "react";
 export default function Kontak() {
+  useEffect(() => {
+      const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzdgUOy_s6zjJQTgqXQ7GX3H1_w6TvWq1hsBZgH0mSREWt3qXCKA34-qo74-jfDVbHE/exec";
+
+      const form = document.forms.namedItem("contact");
+
+      if (form) {
+      const handleSubmit = async (e) => {
+          e.preventDefault();
+          try {
+          await fetch(scriptURL, {
+              method: "POST",
+              body: new FormData(form),
+          });
+          alert("Message sent successfully!");
+          form.reset();
+          } catch (error) {
+          console.error("Error:", error);
+          alert("Failed to send Message.");
+          }
+      };
+
+      form.addEventListener("submit", handleSubmit);
+
+      // cleanup listener
+      return () => {
+          form.removeEventListener("submit", handleSubmit);
+      };
+      }
+  }, []);
+
   return (
     <>
       <Head>
@@ -57,12 +88,11 @@ export default function Kontak() {
               Ada pertanyaan ?<br />
               Mari kita mulai bicara
             </div>
-            <form>
-              <input type="text" placeholder="Nama Lengkap" />
-              <input type="text" placeholder="Nomor Telepon" />
-              <input type="email" placeholder="Alamat Email" />
-              <input type="text" placeholder="Subyek" />
-              <textarea placeholder="Pesan" rows={5} />
+            <form name="contact">
+               <input type="hidden" name="Event" value="NASPO" readOnly />
+              <input name="Name" type="text" placeholder="Nama Lengkap" />
+              <input name="Email" type="email" placeholder="Alamat Email" />
+              <textarea name="Message" placeholder="Pesan" rows={5} />
               <button type="submit">
                 Kirim Pesan &nbsp; <span style={{ fontSize: 18 }}>→</span>
               </button>
