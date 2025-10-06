@@ -64,7 +64,8 @@ function IndonesiaOnline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbzODtRHGjNb3EB1-wGxjIAHwifmcXh7QVjpLnQVCI4h4DXQ0zYlk0_Hj8nFw75jGTtE/exec";
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbzODtRHGjNb3EB1-wGxjIAHwifmcXh7QVjpLnQVCI4h4DXQ0zYlk0_Hj8nFw75jGTtE/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -551,11 +552,27 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Kategori--</option>
                     <option value="Waste Treatment">Waste Treatment</option>
-                    <option value="IoT and Its Applications">IoT and Its Applications</option>
+                    <option value="IoT and Its Applications">
+                      IoT and Its Applications
+                    </option>
                     <option value="Functional Food">Functional Food</option>
                     <option value="Energy">Energy</option>
-                    <option value="Research on Children with Special Needs">Research on Children with Special Needs</option>
+                    <option value="Research on Children with Special Needs">
+                      Research on Children with Special Needs
+                    </option>
                     <option value="Entrepreneurship">Entrepreneurship</option>
+                    <option value="Applied Life Sciences">
+                      Applied Life Sciences
+                    </option>
+                    <option value="Applied Environmental Sciences">
+                      Applied Environmental Sciences
+                    </option>
+                    <option value="Applied Social Science">
+                      Applied Social Science
+                    </option>
+                    <option value="Physics and Engineering">
+                      Physics and Engineering
+                    </option>
                   </select>
                 </div>
 
