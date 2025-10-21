@@ -51,6 +51,8 @@ function IndonesiaOffline() {
         break;
       case "National Applied Science Project Olympiad - Offline Competition + Excursion":
         break;
+      case "National Applied Science Project Olympiad - Offline Competition + Fullpackage":
+        break;
       default:
         break;
     }
@@ -248,6 +250,9 @@ function IndonesiaOffline() {
                     </option>
                     <option value="National Applied Science Project Olympiad - Offline Competition + Excursion">
                       Offline Competition + Excursion
+                    </option>
+                    <option value="National Applied Science Project Olympiad - Offline Competition + Fullpackage">
+                      Offline Competition + Fullpackage
                     </option>
                   </select>
                 </div>
