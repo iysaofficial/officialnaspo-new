@@ -9,14 +9,12 @@ export default function MainHero() {
         <div className="main-hero-container">
           <div className="main-hero-row">
             <div className="main-hero-col">
-              <h1 className="main-hero-title">BUKA PENDAFTARAN</h1>
+              <h1 className="main-hero-title">TUTUTP PENDAFTARAN</h1>
               <h1 className="main-hero-title">NASPO 2025</h1>
               <div className="main-hero-btns">
-                <Link href="/registration/homeindo" legacyBehavior>
                 <a className="main-hero-btn">
-                  Daftar disini!!!&nbsp; <span aria-hidden>→</span>
+                  Tutup Pendaftaran&nbsp; <span aria-hidden>→</span>
                 </a>
-                </Link>
                 <a href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing" target="_blank" className="main-hero-btn">
                   Buku Panduan 2025 &nbsp; <span aria-hidden>→</span>
                 </a>
