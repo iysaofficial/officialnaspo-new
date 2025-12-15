@@ -9,7 +9,12 @@ const menu = [
     label: "Sertifikat",
     submenu: [
       {
-        label: "Sertifikat Pembimbing",
+        label: "Sertifikat Pembimbing 2025",
+        target: "_blank",
+        href: "https://drive.google.com/drive/folders/1jJrUdgkY5j2FtiSw6DTjBHTjOcKbOsFI?usp=sharing",
+      },
+      {
+        label: "Sertifikat Pembimbing 2024",
         target: "_blank",
         href: "https://drive.google.com/drive/folders/14qpJslRH5A6EIZQ0ojovuMdscj7wn9NJ?usp=sharing",
       },

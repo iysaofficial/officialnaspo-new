@@ -9,7 +9,7 @@ export default function MainHero() {
         <div className="main-hero-container">
           <div className="main-hero-row">
             <div className="main-hero-col">
-              <h1 className="main-hero-title">TUTUTP PENDAFTARAN</h1>
+              <h1 className="main-hero-title">TUTUP PENDAFTARAN</h1>
               <h1 className="main-hero-title">NASPO 2025</h1>
               <div className="main-hero-btns">
                 <a className="main-hero-btn">

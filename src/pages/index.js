@@ -22,7 +22,7 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <MainHero />
+      <MainwHero />
 
       {/* About Section */}
       <OrganizedBy />
