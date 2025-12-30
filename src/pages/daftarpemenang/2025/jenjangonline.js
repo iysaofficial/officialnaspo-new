@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 export default function jenjangonline() {
   // Data kategori bisa diubah sesuai tahun
 const jenjanglist = [
-  { label: "Sekolah Dasar (SD)", href: "https://drive.google.com/file/d/1EXtcp_OjbuVg3Rp4V-hGSKYsKBWZoga8/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Pertama (SMP)", href: "https://drive.google.com/file/d/1tcOcONm-ZGwbGHPTLqU3H-5tBd09vHJp/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Atas (SMA)", href: "https://drive.google.com/file/d/1otSY_NjPQaOWUWtxYPt19OmUxSeIdObr/view?usp=sharing", target: "_blank" },
-  { label: "Universitas", href: "https://drive.google.com/file/d/1s_fGRI0gy39KPQdVYykdLXbPOvbMC20f/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Dasar (SD)", href: "https://drive.google.com/file/d/1KvFiF1FOUzrkQ68WIu0vhpsn-RgqXHzX/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Menengah Pertama (SMP)", href: "https://drive.google.com/file/d/1ByImB984QwTCFxek6_NnimewQZ-lrzFl/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Menengah Atas (SMA)", href: "https://drive.google.com/file/d/1AfnralZGui5BhTxstl7vJZcr1hsylqcq/view?usp=sharing", target: "_blank" },
+  { label: "Universitas", href: "https://drive.google.com/file/d/19xCqYZbFivmuaDsnxOCTht8o94owj0yJ/view?usp=sharing", target: "_blank" },
 ];
 
   return (
@@ -21,7 +21,7 @@ const jenjanglist = [
       </Head>
       <Navbar />
       <Breadcrumb
-        items={[{ label: "Daftar Pemenang 2023" }]}
+        items={[{ label: "Daftar Pemenang 2025" }]}
         title="Daftar Pemenang"
       />
       <section className="winner-content">

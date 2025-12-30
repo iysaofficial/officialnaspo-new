@@ -6,6 +6,10 @@ import Footer from "@/components/Footer";
 
 const tahunList = [
   {
+    label: "2025",
+    href: "/daftarpemenang/2025/kategori"
+  },
+  {
     label: "2024",
     href: "https://drive.google.com/drive/folders/1qCQkAbcDO9a96suBZcr5LtuOPH8jLsKi?usp=drive_link",
     target: "_blank",

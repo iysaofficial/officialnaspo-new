@@ -9,18 +9,18 @@ export default function MainHero() {
         <div className="main-hero-container">
           <div className="main-hero-row">
             <div className="main-hero-col">
-              <h1 className="main-hero-title">TUTUP PENDAFTARAN</h1>
-              <h1 className="main-hero-title">NASPO 2025</h1>
+              <h1 className="main-hero-title">Segera Hadir</h1>
+              <h1 className="main-hero-title">NATIONAL APPLIED SCIENCE PROJECT OLYMPIAD</h1>
               <div className="main-hero-btns">
-                <a className="main-hero-btn">
+                {/* <a className="main-hero-btn">
                   Tutup Pendaftaran&nbsp; <span aria-hidden>→</span>
-                </a>
+                </a> */}
                 <a href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing" target="_blank" className="main-hero-btn">
                   Buku Panduan 2025 &nbsp; <span aria-hidden>→</span>
                 </a>
-                <a href="https://drive.google.com/file/d/1xhm1O3RwZKEj4WFhLZHvOmqx4aJXwURB/view?usp=sharing" target="_blank" className="main-hero-btn">
+                {/* <a href="https://drive.google.com/file/d/1xhm1O3RwZKEj4WFhLZHvOmqx4aJXwURB/view?usp=sharing" target="_blank" className="main-hero-btn">
                   Trip & Tour Package 2025 &nbsp; <span aria-hidden>→</span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="main-hero-img-col">

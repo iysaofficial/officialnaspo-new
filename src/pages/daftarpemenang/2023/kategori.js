@@ -8,8 +8,8 @@ export default function KategoriPage() {
   // Data kategori bisa diubah sesuai tahun
 const kategorilist = [
   { label: "Special Award", href: "https://drive.google.com/file/d/1kH9C26Bt7W4Cl0Zgnea-Gpi61DWbvsmR/view?usp=sharing", target: "_blank" },
-  { label: "NASPO ONLINE", href: "/daftarpemenang/2023/jenjangonline" },
-  { label: "NASPO OFFLINE", href: "/daftarpemenang/2023/jenjangoffline" },
+  { label: "NASPO DARING", href: "/daftarpemenang/2023/jenjangonline" },
+  { label: "NASPO LURING", href: "/daftarpemenang/2023/jenjangoffline" },
 ];
 
   return (

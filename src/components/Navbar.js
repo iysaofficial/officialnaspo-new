@@ -11,7 +11,7 @@ const menu = [
       {
         label: "Sertifikat Pembimbing 2025",
         target: "_blank",
-        href: "https://drive.google.com/drive/folders/1jJrUdgkY5j2FtiSw6DTjBHTjOcKbOsFI?usp=sharing",
+        href: "https://drive.google.com/drive/folders/1Ipqe4viB95p3RzcNFuj2BA6pdXpGHaEf?usp=sharing ",
       },
       {
         label: "Sertifikat Pembimbing 2024",
@@ -54,6 +54,11 @@ const menu = [
     label: "Galeri",
     submenu: [
       {
+        label: "Galeri 2025",
+        target: "_blank",
+        href: "https://drive.google.com/drive/folders/1HcKfSzW6rjnait8yS-W40lnH0BvxBRB5?usp=sharing",
+      },
+      {
         label: "Galeri 2024",
         target: "_blank",
         href: "https://drive.google.com/drive/folders/1OZAy_5LPSwutTivLjuhIVYRgO0ctFoSX?usp=sharing",
@@ -86,6 +91,11 @@ const menu = [
     label: "Liputan Media",
     submenu: [
       { label: "Berita dari Media", href: "/berita" },
+      {
+        label: "Press Release 2025",
+        target: "_blank",
+        href: "https://docs.google.com/document/d/1K3-tFGs6De3LFRwbgNFeVoOLNRJYidy-dXntTYth0Fk/edit?tab=t.0",
+      },
       {
         label: "Press Release 2024",
         target: "_blank",

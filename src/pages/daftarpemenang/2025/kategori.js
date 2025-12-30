@@ -4,31 +4,30 @@ import Navbar from "@/components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
 import Footer from "@/components/Footer";
 
-export default function jenjangonline() {
+export default function KategoriPage() {
   // Data kategori bisa diubah sesuai tahun
-const jenjanglist = [
-  { label: "Sekolah Dasar (SD)", href: "https://drive.google.com/file/d/1EXtcp_OjbuVg3Rp4V-hGSKYsKBWZoga8/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Pertama (SMP)", href: "https://drive.google.com/file/d/1tcOcONm-ZGwbGHPTLqU3H-5tBd09vHJp/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Atas (SMA)", href: "https://drive.google.com/file/d/1otSY_NjPQaOWUWtxYPt19OmUxSeIdObr/view?usp=sharing", target: "_blank" },
-  { label: "Universitas", href: "https://drive.google.com/file/d/1s_fGRI0gy39KPQdVYykdLXbPOvbMC20f/view?usp=sharing", target: "_blank" },
+const kategorilist = [
+  // { label: "Special Award", href: "https://drive.google.com/file/d/1kH9C26Bt7W4Cl0Zgnea-Gpi61DWbvsmR/view?usp=sharing", target: "_blank" },
+  { label: "NASPO DARING", href: "/daftarpemenang/2025/jenjangonline" },
+  { label: "NASPO LURING", href: "/daftarpemenang/2025/jenjangoffline" },
 ];
 
   return (
     <>
       <Head>
-        <title>Level Pendidikan | NASPO</title>
+        <title>Kategori | NASPO</title>
         <meta name="description" content="Kategori NASPO" />
       </Head>
       <Navbar />
       <Breadcrumb
-        items={[{ label: "Daftar Pemenang 2023" }]}
+        items={[{ label: "Daftar Pemenang 2025" }]}
         title="Daftar Pemenang"
       />
       <section className="winner-content">
         <h2 className="winner-subtitle">Daftar Pemenang</h2>
-        <p>Pilih berdasarkan Level Pendidikan di event Daring yang kamu ikuti</p>
+        <p>Pilih berdasarkan kategori event yang Anda ikuti</p>
         <div className="winner-year-list">
-           {jenjanglist.map((t) =>
+          {kategorilist.map((t) =>
             t.target === "_blank" ? (
               <a
                 key={t.label}

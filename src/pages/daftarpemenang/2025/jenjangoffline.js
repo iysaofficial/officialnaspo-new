@@ -4,13 +4,13 @@ import Navbar from "@/components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
 import Footer from "@/components/Footer";
 
-export default function jenjangonline() {
+export default function jenjangoffline() {
   // Data kategori bisa diubah sesuai tahun
 const jenjanglist = [
-  { label: "Sekolah Dasar (SD)", href: "https://drive.google.com/file/d/1EXtcp_OjbuVg3Rp4V-hGSKYsKBWZoga8/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Pertama (SMP)", href: "https://drive.google.com/file/d/1tcOcONm-ZGwbGHPTLqU3H-5tBd09vHJp/view?usp=sharing", target: "_blank" },
-  { label: "Sekolah Menengah Atas (SMA)", href: "https://drive.google.com/file/d/1otSY_NjPQaOWUWtxYPt19OmUxSeIdObr/view?usp=sharing", target: "_blank" },
-  { label: "Universitas", href: "https://drive.google.com/file/d/1s_fGRI0gy39KPQdVYykdLXbPOvbMC20f/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Dasar (SD)", href: "https://drive.google.com/file/d/1011rN_ysl1hUJnW-P-oKuZHhUWAeIkve/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Menengah Pertama (SMP)", href: "https://drive.google.com/file/d/1plFAV5VmgQtScAjjeboefh8B-AQYOw1g/view?usp=sharing", target: "_blank" },
+  { label: "Sekolah Menengah Atas (SMA)", href: "https://drive.google.com/file/d/1m0hd2RZZ7hbM4sCsa8wGiXrW8OPRUxwg/view?usp=sharing", target: "_blank" },
+  { label: "Universitas", href: "https://drive.google.com/file/d/12eGc3D81f6YXRjw8mP7G7Nu95niDliKj/view?usp=sharing", target: "_blank" },
 ];
 
   return (
@@ -21,12 +21,12 @@ const jenjanglist = [
       </Head>
       <Navbar />
       <Breadcrumb
-        items={[{ label: "Daftar Pemenang 2023" }]}
+        items={[{ label: "Daftar Pemenang 2025" }]}
         title="Daftar Pemenang"
       />
       <section className="winner-content">
         <h2 className="winner-subtitle">Daftar Pemenang</h2>
-        <p>Pilih berdasarkan Level Pendidikan di event Daring yang kamu ikuti</p>
+        <p>Pilih berdasarkan Level Pendidikan di event Luring yang kamu ikuti</p>
         <div className="winner-year-list">
            {jenjanglist.map((t) =>
             t.target === "_blank" ? (
