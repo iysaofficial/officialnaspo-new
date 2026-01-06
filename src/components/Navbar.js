@@ -24,6 +24,11 @@ const menu = [
     label: "Kurasi",
     submenu: [
       {
+        label: "Kurasi 2025",
+        target: "_blank",
+        href: "https://drive.google.com/drive/folders/17WYFtWwmIIi-l8Er-GJFnqY5ycBBMpX4?usp=sharing",
+      },
+      {
         label: "Kurasi 2024",
         target: "_blank",
         href: "https://drive.google.com/drive/folders/1AAuI8el0ri1dBzZqT0gUh9gy7r7KdLse?usp=sharing",
