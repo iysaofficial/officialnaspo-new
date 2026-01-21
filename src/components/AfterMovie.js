@@ -6,7 +6,7 @@ export default function AfterMovie() {
         <iframe
           width="100%"
           height="480"
-          src="https://www.youtube.com/embed/pLHbixMg0rg?si=hZ3QOZ9DnDgg-rIt"
+          src="https://www.youtube.com/embed/pLHbixMg0rg?si=CxgBKMxY2MKj1Gng"
           title="After Event NASPO & I2ASPO 2025"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
