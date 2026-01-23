@@ -18,7 +18,7 @@ export default function MainHero() {
                   Tutup Pendaftaran&nbsp; <span aria-hidden>→</span>
                 </a> */}
                 <a
-                  href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing"
+                  // href="https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing"
                   target="_blank"
                   className="main-hero-btn"
                 >
