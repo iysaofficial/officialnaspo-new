@@ -569,10 +569,10 @@ function IndonesiaOffline() {
                       Applied Life Sciences
                     </option>
                     <option value="Applied Environmental Science">
-                      Applied Environmental Science
+                      Applied Environmental Sciences
                     </option>
                     <option value="Applied Social Science">
-                      Applied Social Science
+                      Applied Social Sciences
                     </option>
                     <option value="Physics and Engineering">
                       Physics and Engineering

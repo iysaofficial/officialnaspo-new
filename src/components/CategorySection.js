@@ -3,11 +3,36 @@ import Image from "next/image";
 
 const categories = [
   { label: "Waste treatment", img: "/images/kategori/service-thumbnail-1.png" },
-  { label: "IoT and Its Applications", img: "/images/kategori/service-thumbnail-2.png" },
+  {
+    label: "IoT and Its Applications",
+    img: "/images/kategori/service-thumbnail-2.png",
+  },
   { label: "Functional Food", img: "/images/kategori/service-thumbnail-3.png" },
   { label: "Energy", img: "/images/kategori/service-thumbnail-4.png" },
-  { label: "Research on Children with Special Needs", img: "/images/kategori/service-thumbnail-5.png" },
-  { label: "Entrepreneurship", img: "/images/kategori/service-thumbnail-6.png" },
+  {
+    label: "Research on Children with Special Needs",
+    img: "/images/kategori/service-thumbnail-5.png",
+  },
+  {
+    label: "Entrepreneurship",
+    img: "/images/kategori/service-thumbnail-6.png",
+  },
+  {
+    label: "Applied Life Sciences",
+    img: "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/life%20sciences.png?updatedAt=1785383551637",
+  },
+  {
+    label: "Applied Environmental Sciences",
+    img: "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/applied%20enviromental%20sciences.png?updatedAt=1785383638523",
+  },
+  {
+    label: "Applied Social Sciences",
+    img: "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/social%20sciences.png?updatedAt=1785383586186",
+  },
+  {
+    label: "Physics and Engineering",
+    img: "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/physics%20and%20engineering.png?updatedAt=1785383614272",
+  },
 ];
 
 export default function CategorySection() {
@@ -20,7 +45,9 @@ export default function CategorySection() {
         <div className="kategori-header">
           <span className="kategori-badge">Kategori</span>
           <h2 className="kategori-title">
-            Pilih Kategori yang Ingin<br />Kalian Daftarkan
+            Pilih Kategori yang Ingin
+            <br />
+            Kalian Daftarkan
           </h2>
         </div>
         <div className="kategori-grid">
@@ -37,6 +64,7 @@ export default function CategorySection() {
                 width={120}
                 height={120}
                 priority={idx === 0}
+                unoptimized
               />
               <div className="kategori-label">{cat.label}</div>
               <div className="kategori-radio-wrap">

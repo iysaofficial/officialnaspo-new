@@ -562,10 +562,10 @@ function IndonesiaOnline() {
                     <option value="Physics and Engineering">
                       Physics and Engineering
                     </option>
-                    <option value="Applied Social Science">
-                      Applied Social Science
+                    <option value="Applied Social Sciences">
+                      Applied Social Sciences
                     </option>
-                    <option value="Applied Enviromental Sciences">
+                    <option value="Applied Environmental Sciences">
                       Applied Enviromental Sciences
                     </option>
                     <option value="Applied Life Sciences">

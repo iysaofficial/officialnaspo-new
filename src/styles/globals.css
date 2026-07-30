@@ -50,6 +50,13 @@
   grid-template-columns: repeat(3, 1fr); /* 3 kolom per baris */
   gap: 32px;
 }
+
+/* Center the last item if it's the only one in the row on desktop */
+@media (min-width: 901px) {
+  .kategori-card:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
+}
 .kategori-card {
   background: #fff;
   border: 2px solid #dbe6ff;
