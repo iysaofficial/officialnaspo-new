@@ -15,9 +15,9 @@ export default function MainHero() {
               </h1>
               <div className="main-hero-btns">
                 {/* ====== REGISTRASI OPEN ====== */}
-                <a href="/registration/homeindo" className="main-hero-btn">
+                <Link href="/registration/homeindo" className="main-hero-btn">
                   Daftar Disini ! &nbsp; <span aria-hidden>→</span>
-                </a>
+                </Link>
                 <a
                   href="https://drive.google.com/drive/folders/1GSvm9F0CB-BzK1kXIpgH70fompQSDuLf?usp=sharing"
                   target="_blank"
