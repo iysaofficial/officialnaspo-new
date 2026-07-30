@@ -1,7 +1,7 @@
 export default function AfterMovie() {
   return (
     <section className="after-movie-section">
-      <h2 className="after-movie-title">After Movie NASPO 2025</h2>
+      <h2 className="after-movie-title">After Event NASPO 2025</h2>
       <div className="after-movie-video-wrapper">
         <iframe
           width="100%"
