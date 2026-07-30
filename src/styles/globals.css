@@ -58,7 +58,9 @@
   padding: 32px 18px 24px 18px;
   text-align: center;
   cursor: pointer;
-  transition: border 0.18s, box-shadow 0.18s;
+  transition:
+    border 0.18s,
+    box-shadow 0.18s;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -93,7 +95,9 @@
   border-radius: 50%;
   border: 2px solid #dbe6ff;
   background: #fff;
-  transition: border 0.18s, box-shadow 0.18s;
+  transition:
+    border 0.18s,
+    box-shadow 0.18s;
   box-shadow: 0 1px 4px 0 rgba(0, 87, 216, 0.04);
 }
 .kategori-radio.selected {
@@ -859,7 +863,6 @@
   line-height: 1.2;
 }
 .organizedby-logo {
-  height: 60px;
   object-fit: contain;
   margin: 0 32px;
 }
@@ -1055,10 +1058,12 @@
   border: none;
   border-radius: 12px;
   padding: 22px 44px;
-  box-shadow: 0 8px 32px 0 rgba(225,91,100,0.15);
+  box-shadow: 0 8px 32px 0 rgba(225, 91, 100, 0.15);
   cursor: pointer;
   text-decoration: none;
-  transition: color 0.18s, transform 0.18s;
+  transition:
+    color 0.18s,
+    transform 0.18s;
   text-align: center;
   outline: none;
   margin-bottom: 12px;
@@ -1143,7 +1148,6 @@
   padding: 0;
   margin: 0 auto;
 }
-
 
 .breadcrumb-item:before {
   content: "" !important;
@@ -1388,8 +1392,11 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.375rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
@@ -1842,7 +1849,6 @@ input[type="checkbox"] {
   }
 }
 
-
 /* Kontak Section */
 .kontak-section {
   background: #f8fafd;
@@ -1886,13 +1892,13 @@ input[type="checkbox"] {
 }
 
 .kontak-card .icon-lokasi {
-  background: linear-gradient(135deg,#ff5e62,#ff9966);
+  background: linear-gradient(135deg, #ff5e62, #ff9966);
 }
 .kontak-card .icon-email {
-  background: linear-gradient(135deg,#7f53ac,#647dee);
+  background: linear-gradient(135deg, #7f53ac, #647dee);
 }
 .kontak-card .icon-telp {
-  background: linear-gradient(135deg,#ff9966,#ff5e62);
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
 }
 
 .kontak-card-title {
@@ -1960,7 +1966,7 @@ input[type="checkbox"] {
 
 .kontak-form button[type="submit"] {
   margin-top: 18px;
-  background: linear-gradient(90deg,#7f53ac,#647dee);
+  background: linear-gradient(90deg, #7f53ac, #647dee);
   color: #fff;
   font-weight: 700;
   border: none;
@@ -1976,7 +1982,7 @@ input[type="checkbox"] {
 }
 
 .kontak-form button[type="submit"]:hover {
-  background: linear-gradient(90deg,#647dee,#7f53ac);
+  background: linear-gradient(90deg, #647dee, #7f53ac);
 }
 
 /* Responsive */
@@ -2066,7 +2072,9 @@ input[type="checkbox"] {
   color: #fff;
   cursor: pointer;
   box-shadow: 0 2px 16px #e7e7ff44;
-  transition: background 0.2s, transform 0.1s;
+  transition:
+    background 0.2s,
+    transform 0.1s;
   margin-bottom: 10px;
 }
 
@@ -2078,7 +2086,8 @@ input[type="checkbox"] {
 
 /* Responsive */
 @media (max-width: 700px) {
-  .section-title, .section-heading {
+  .section-title,
+  .section-heading {
     font-size: 1.5rem;
   }
   .category-list {
@@ -2122,7 +2131,9 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   border: 2px solid #ad7e7e;
-  transition: box-shadow 0.2s, border 0.2s;
+  transition:
+    box-shadow 0.2s,
+    border 0.2s;
 }
 
 .news-card:hover {
@@ -2191,7 +2202,7 @@ input[type="checkbox"] {
 
 .news-card-btn {
   margin-top: 18px;
-  background: linear-gradient(90deg,#7f53ac,#647dee);
+  background: linear-gradient(90deg, #7f53ac, #647dee);
   color: #fff;
   font-weight: 600;
   border: none;
@@ -2206,5 +2217,5 @@ input[type="checkbox"] {
 }
 
 .news-card-btn:hover {
-  background: linear-gradient(90deg,#647dee,#7f53ac);
+  background: linear-gradient(90deg, #647dee, #7f53ac);
 }

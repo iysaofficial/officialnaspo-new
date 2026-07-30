@@ -13,6 +13,7 @@ function IndonesiaOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -48,12 +49,13 @@ function IndonesiaOffline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "National Applied Science Project Olympiad - Offline Competition":
+        setCategoryPrice("RP 3.150.000");
         break;
       case "National Applied Science Project Olympiad - Offline Competition + Excursion":
-        break;
-      case "National Applied Science Project Olympiad - Offline Competition + Fullpackage":
+        setCategoryPrice("");
         break;
       default:
+        setCategoryPrice("");
         break;
     }
   };
@@ -67,10 +69,11 @@ function IndonesiaOffline() {
     }
   }, [router]);
 
-  // const scriptURL =
-  //   "https://script.google.com/macros/s/AKfycbylCdBcqr4rj_kFTohA-nKEVPn2P6tZsZ08dzNWlBej25pda1-0VW82fJm07R5E_Zqc/exec";
+  // ====== REGISTRASI OPEN ======
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbyVMJyK7m1RYezaXi406BYKl4c4McRqf0DRXxnUYljRJJmhmVm-Vi_aS3_EeOnS5YALhw/exec";
+  // ====== REGISTRASI CLOSE ======
+  // const scriptURL = "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -121,6 +124,7 @@ function IndonesiaOffline() {
           namaLengkap: selectedMaxNamaLengkap,
           projectTitle: selectedMaxProject,
           category: selectedCategory,
+          categoryPrice: categoryPrice,
           namasekolah: selectedNamaSekolah,
         };
 
@@ -128,11 +132,11 @@ function IndonesiaOffline() {
         setTimeout(() => {
           router.push(
             `/registration/thankyouindo?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap
+              selectedMaxNamaLengkap,
             )}
             &projectTitle=${encodeURIComponent(selectedMaxProject)}
             &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
           );
         }, 1000);
       } else {
@@ -160,7 +164,7 @@ function IndonesiaOffline() {
             <br />
             <br />
             <h4 className="text-xl">
-              HALLO PESERTA NASPO 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NASPO 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -207,8 +211,8 @@ function IndonesiaOffline() {
                       {isLoading
                         ? "Mengirim..."
                         : canClick
-                        ? "Lanjutkan"
-                        : `Tunggu... ${countdown}`}
+                          ? "Lanjutkan"
+                          : `Tunggu... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -253,9 +257,6 @@ function IndonesiaOffline() {
                     <option value="National Applied Science Project Olympiad - Offline Competition + Excursion">
                       Offline Competition + Excursion
                     </option>
-                    <option value="National Applied Science Project Olympiad - Offline Competition + Fullpackage">
-                      Offline Competition + Fullpackage
-                    </option>
                   </select>
                 </div>
               </div>
@@ -272,7 +273,7 @@ function IndonesiaOffline() {
                     </p>
                     <p>Note : maksimal 5 anggota + 1 ketua tim</p>
                     <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Zaidan Adi Prasetya</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -425,12 +426,7 @@ function IndonesiaOffline() {
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
                     <option value="Sekolah Dasar">Sekolah Dasar</option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
-                    </option>
-                    <option value="Sekolah Menengah Atas">
-                      Sekolah Menengah Atas
-                    </option>
+                    <option value="Sekolah Menengah">Sekolah Menengah</option>
                     <option value="Universitas">Universitas</option>
                   </select>
                 </div>
@@ -620,6 +616,21 @@ function IndonesiaOffline() {
                   ></textarea>
                   <div className="mt-5" id="form_alerts"></div>
                 </div>
+                {/* Kolom Harga */}
+                <div className="input-box invisible">
+                  <label htmlFor="CATEGORY_PRICE" className="form-label ">
+                    Harga Pendaftaran
+                  </label>
+                  <input
+                    type="text"
+                    id="CATEGORY_PRICE"
+                    name="CATEGORY_PRICE"
+                    className="form-control"
+                    value={categoryPrice}
+                    readOnly
+                    placeholder="Harga akan muncul berdasarkan kategori yang dipilih"
+                  />
+                </div>
               </div>
               {/* DETAIL PROJECT END */}
               {/* DETAIL PROJECT END */}
@@ -654,7 +665,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi NASPO 2025
+                    Sumber Informasi Kompetisi NASPO 2026
                   </label>
                   <select
                     type="text"
@@ -699,7 +710,10 @@ function IndonesiaOffline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="TUTUP PENDAFTARAN" />
+                {/* ====== REGISTRASI OPEN ====== */}
+                <input type="submit" value="KIRIM" />
+                {/* ====== REGISTRASI CLOSE ====== */}
+                {/* <input type="submit" value="TUTUP PENDAFTARAN" disabled /> */}
               </div>
             </form>
             {/* Loader dan Status Message */}

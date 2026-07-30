@@ -49,7 +49,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "National Applied Science Project Olympiad - Online Competition":
-        setCategoryPrice("RP 900.000");
+        setCategoryPrice("RP 1.150.000");
         break;
       default:
         break;
@@ -64,10 +64,11 @@ function IndonesiaOnline() {
     }
   }, [router]);
 
+  // ====== REGISTRASI OPEN ======
   const scriptURL =
-    "";
-  // const scriptURL =
-  //   "https://script.google.com/macros/s/AKfycbzODtRHGjNb3EB1-wGxjIAHwifmcXh7QVjpLnQVCI4h4DXQ0zYlk0_Hj8nFw75jGTtE/exec";
+    "https://script.google.com/macros/s/AKfycby-oy3JeruKlRMAxuIX_qZlk5oyXHllRuoSE79IaF8LA6G4U2CH2zcqab5hdLdnv3LvGA/exec";
+  // ====== REGISTRASI CLOSE ======
+  // const scriptURL = "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -127,11 +128,11 @@ function IndonesiaOnline() {
         setTimeout(() => {
           router.push(
             `/registration/thankyouindo?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap
+              selectedMaxNamaLengkap,
             )}
             &projectTitle=${encodeURIComponent(selectedMaxProject)}
             &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
           );
         }, 1000);
       } else {
@@ -159,7 +160,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA NASPO 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NASPO 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -207,8 +208,8 @@ function IndonesiaOnline() {
                       {isLoading
                         ? "Mengirim..."
                         : canClick
-                        ? "Lanjutkan"
-                        : `Tunggu... ${countdown}`}
+                          ? "Lanjutkan"
+                          : `Tunggu... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -266,7 +267,7 @@ function IndonesiaOnline() {
                     </p>
                     <p>Note : maksimal 5 anggota + 1 ketua tim</p>
                     <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Zaidan Adi Prasetya</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -419,12 +420,7 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
                     <option value="Sekolah Dasar">Sekolah Dasar</option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
-                    </option>
-                    <option value="Sekolah Menengah Atas">
-                      Sekolah Menengah Atas
-                    </option>
+                    <option value="Sekolah Menengah">Sekolah Menengah</option>
                     <option value="Universitas">Universitas</option>
                   </select>
                 </div>
@@ -554,26 +550,26 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Kategori--</option>
                     <option value="Waste Treatment">Waste Treatment</option>
-                    <option value="IoT and Its Applications">
-                      IoT and Its Applications
-                    </option>
-                    <option value="Functional Food">Functional Food</option>
-                    <option value="Energy">Energy</option>
                     <option value="Research on Children with Special Needs">
                       Research on Children with Special Needs
                     </option>
+                    <option value="Functional Food">Functional Food</option>
                     <option value="Entrepreneurship">Entrepreneurship</option>
-                    <option value="Applied Life Sciences">
-                      Applied Life Sciences
+                    <option value="Energy">Energy</option>
+                    <option value="IoT and its Applications">
+                      IoT and its Applications
                     </option>
-                    <option value="Applied Environmental Science">
-                      Applied Environmental Science
+                    <option value="Physics and Engineering">
+                      Physics and Engineering
                     </option>
                     <option value="Applied Social Science">
                       Applied Social Science
                     </option>
-                    <option value="Physics and Engineering">
-                      Physics and Engineering
+                    <option value="Applied Enviromental Sciences">
+                      Applied Enviromental Sciences
+                    </option>
+                    <option value="Applied Life Sciences">
+                      Applied Life Sciences
                     </option>
                   </select>
                 </div>
@@ -663,7 +659,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi NASPO 2025
+                    Sumber Informasi Kompetisi NASPO 2026
                   </label>
                   <select
                     type="text"
@@ -708,7 +704,10 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="TUTUP PENDAFTARAN" />
+                {/* ====== REGISTRASI OPEN ====== */}
+                <input type="submit" value="KIRIM" />
+                {/* ====== REGISTRASI CLOSE ====== */}
+                {/* <input type="submit" value="TUTUP PENDAFTARAN" disabled /> */}
               </div>
             </form>
 

@@ -51,21 +51,44 @@ function HomeIndo() {
                 FORMULIR REGISTRASI
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi NASPO 2025
+                Pilih Kategori Kompetisi untuk Registrasi NASPO 2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
+            {/* ====== REGISTRASI OPEN ====== */}
             <a
+              onClick={() =>
+                handleOpenModal(
+                  "/registration/indo-online",
+                  indonesiaOnlineTerms,
+                )
+              }
               className="btn btn-action text-center me-lg-5 "
+              style={{ cursor: "pointer" }}
             >
-              TUTUP REGISTRASI<i className="fa-solid fa-earth-americas"></i>
+              INDONESIA ONLINE<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
+              onClick={() =>
+                handleOpenModal(
+                  "/registration/indo-offline",
+                  indonesiaOfflineTerms,
+                )
+              }
               className="btn btn-action text-center me-lg-5 "
+              style={{ cursor: "pointer" }}
             >
+              INDONESIA OFFLINE<i className="fa-solid fa-earth-americas"></i>
+            </a>
+
+            {/* ====== REGISTRASI CLOSE ====== */}
+            {/* <a className="btn btn-action text-center me-lg-5 ">
               TUTUP REGISTRASI<i className="fa-solid fa-earth-americas"></i>
             </a>
+            <a className="btn btn-action text-center me-lg-5 ">
+              TUTUP REGISTRASI<i className="fa-solid fa-earth-americas"></i>
+            </a> */}
           </div>
         </div>
       </section>
