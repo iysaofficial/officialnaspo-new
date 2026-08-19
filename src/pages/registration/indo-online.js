@@ -107,40 +107,30 @@ function IndonesiaOnline() {
 
     setIsLoading(true);
     try {
-      const response = await fetch(scriptURL, {
+      await fetch(scriptURL, {
         method: "POST",
         body: new FormData(form),
+        mode: "no-cors",
       });
 
-      if (response.ok) {
-        setStatusMessage("Data berhasil dikirim!");
+      setStatusMessage("Data berhasil dikirim!");
 
-        // Ambil data sebelum reset
-        const formData = {
-          namaLengkap: selectedMaxNamaLengkap,
-          projectTitle: selectedMaxProject,
-          category: selectedCategory,
-          categoryPrice: categoryPrice,
-          namasekolah: selectedNamaSekolah,
-        };
+      // Ambil data sebelum reset
+      const formData = {
+        namaLengkap: selectedMaxNamaLengkap,
+        projectTitle: selectedMaxProject,
+        category: selectedCategory,
+        categoryPrice: categoryPrice,
+        namasekolah: selectedNamaSekolah,
+      };
 
-        form.reset();
-        setTimeout(() => {
-          router.push(
-            `/registration/thankyouindo?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap,
-            )}
-            &projectTitle=${encodeURIComponent(selectedMaxProject)}
-            &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
-          );
-        }, 1000);
-      } else {
-        setStatusMessage("Terjadi kesalahan saat mengirim data.");
-      }
+      form.reset();
+      setTimeout(() => {
+        const url = `/registration/thankyouindo?namaLengkap=${encodeURIComponent(selectedMaxNamaLengkap)}&projectTitle=${encodeURIComponent(selectedMaxProject)}&category=${encodeURIComponent(selectedCategory)}&namasekolah=${encodeURIComponent(selectedNamaSekolah)}`;
+        router.push(url);
+      }, 1000);
     } catch (error) {
       setStatusMessage("Terjadi kesalahan saat mengirim data.");
-    } finally {
       setIsLoading(false);
     }
   };
