@@ -4,15 +4,17 @@ export const indonesiaOnlineTerms = (
       Sebelum melanjutkan, harap membaca dan menyetujui syarat & ketentuan
       berikut untuk Peserta Online:
     </h5>
-    {/* <h1 className="">Peserta Online:</h1> */}
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>extended abstract</em>, 
+        Dengan ini kami informasikan bahwa data yang telah diisikan oleh peserta tidak dapat diubah setelah batas waktu pembayaran berakhir. Sehubungan dengan hal tersebut, kami mohon agar setelah melakukan pengisian data, peserta memeriksa kembali LoA serta data registrasi untuk memastikan seluruh informasi yang tercantum telah benar dan sesuai.
+      </li>
+      <li>
+        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>full paper</em>, 
         <em> PowerPoint</em>) setelah dua kali pengingat akan dianggap mengundurkan diri 
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan 
+        Peserta wajib menggunakan judul dan <em>full paper</em> yang sesuai dengan 
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa Inggris untuk 
         seluruh persyaratan dokumen yang dibutuhkan)
       </li>
@@ -21,6 +23,7 @@ export const indonesiaOnlineTerms = (
         diganggu gugat.
       </li>
     </ul>
+      <br/>
     <p className="text-align">
       Selain itu, kami informasikan bahwa setiap event akan kami daftarkan ke
       kurasi SIM T Puspresnas.
@@ -43,18 +46,21 @@ export const indonesiaOfflineTerms = (
     </h5>
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan berkas persyaratan (<em>extended abstract</em>,
+        Dengan ini kami informasikan bahwa data yang telah diisikan oleh peserta tidak dapat diubah setelah batas waktu pembayaran berakhir. Sehubungan dengan hal tersebut, kami mohon agar setelah melakukan pengisian data, peserta memeriksa kembali LoA serta data registrasi untuk memastikan seluruh informasi yang tercantum telah benar dan sesuai.
+      </li>
+      <li>
+        Peserta yang tidak mengumpulkan berkas persyaratan (<em>full paper</em>,
         <em> poster</em>) setelah dua kali pengingat akan dianggap mengundurkan diri
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan
+        Peserta wajib menggunakan judul dan <em>full paper</em> yang sesuai dengan
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa
         Inggris untuk seluruh <em>requirement</em>)
       </li>
       <li>
         Peserta diwajibkan untuk membuat poster berukuran A0, membawa produk,
-        dan juga <em>paper</em>/<em>extended abstract</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
+        dan juga <em>paper</em>/<em>full paper</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
         penjurian.
       </li>
       <li>
@@ -77,6 +83,7 @@ export const indonesiaOfflineTerms = (
         diganggu gugat.
       </li>
     </ul>
+      <br/>
     <p className="text-align">
       Selain itu, kami informasikan bahwa setiap event akan kami daftarkan ke
       kurasi SIM T Puspresnas.
