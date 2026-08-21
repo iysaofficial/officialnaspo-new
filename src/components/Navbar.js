@@ -6,6 +6,36 @@ const menu = [
   { label: "Beranda", href: "/" },
   { label: "Daftar Pemenang", href: "/daftarpemenang/daftar-pemenang" },
   {
+    label: "Buku Panduan",
+    submenu: [
+      {
+        label: "Buku Panduan 2025",
+        target: "_blank",
+        href: "https://drive.google.com/file/d/1WYabsi1LRuKvcQ5bwTSHD980ErWzfucT/view?usp=sharing",
+      },
+      {
+        label: "Buku Panduan 2024",
+        target: "_blank",
+        href: "https://drive.google.com/file/d/1QmfxmEzTAIf2Vkzcy3bwzjVzaFTEfi7R/view?usp=sharing",
+      },
+      {
+        label: "Buku Panduan 2023",
+        target: "_blank",
+        href: "https://drive.google.com/file/d/1Xxw4GiohJo4eZUPBz1ywJcHWmc0sCsyp/view?usp=sharing",
+      },
+      {
+        label: "Buku Panduan 2022",
+        target: "_blank",
+        href: "https://drive.google.com/file/d/1jN63vr5HsI3jRhi-Ju9i6ggeSHfZc15h/view?usp=sharing",
+      },
+      {
+        label: "Buku Panduan 2021",
+        target: "_blank",
+        href: "https://drive.google.com/file/d/1U-faNt3TVsH1sSgp1A0YEGza7oBqhApU/view?usp=sharing",
+      },
+    ],
+  },
+  {
     label: "Sertifikat",
     submenu: [
       {
