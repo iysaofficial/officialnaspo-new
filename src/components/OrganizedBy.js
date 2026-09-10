@@ -12,11 +12,11 @@ export default function OrganizedBy() {
         </div>
         <div className="organizedby-row" style={{ justifyContent: "center" }}>
           <Image
-            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/logo%20IYSA%20bagus%20(1).png"
+            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/LOGO%20IYSA%20FIX.png"
             alt="IYSA"
             className="organizedby-logo"
-            width={300}
-            height={150}
+            width={320}
+            height={200}
             priority
             unoptimized
           />
