@@ -12,7 +12,7 @@ export default function OrganizedBy() {
         </div>
         <div className="organizedby-row" style={{ justifyContent: "center" }}>
           <Image
-            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/LOGO%20IYSA%20FIX.png"
+            src="images/logo/LOGO IYSA FIX.png"
             alt="IYSA"
             className="organizedby-logo"
             width={320}
@@ -21,7 +21,7 @@ export default function OrganizedBy() {
             unoptimized
           />
           <Image
-            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/Logo%20Tengah%20block%20SV%20UGM%20biru%20lock-up%20(1).png"
+            src="images/logo/Logo Tengah block SV UGM biru lock-up.png"
             alt="FMIPA"
             className="organizedby-logo"
             width={300}
@@ -30,10 +30,10 @@ export default function OrganizedBy() {
             unoptimized
           />
           <Image
-            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/prospera%20creative.png"
+            src="images/logo/prospera.png"
             alt="prospera"
             className="organizedby-logo"
-            width={700}
+            width={295}
             height={300}
             priority
             unoptimized
