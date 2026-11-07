@@ -70,10 +70,10 @@ function IndonesiaOffline() {
   }, [router]);
 
   // ====== REGISTRASI OPEN ======
-  const scriptURL =
-    "https://script.google.com/macros/s/AKfycbyVMJyK7m1RYezaXi406BYKl4c4McRqf0DRXxnUYljRJJmhmVm-Vi_aS3_EeOnS5YALhw/exec";
+  // const scriptURL =
+  //   "https://script.google.com/macros/s/AKfycbyVMJyK7m1RYezaXi406BYKl4c4McRqf0DRXxnUYljRJJmhmVm-Vi_aS3_EeOnS5YALhw/exec";
   // ====== REGISTRASI CLOSE ======
-  // const scriptURL = "";
+  const scriptURL = "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -701,9 +701,9 @@ function IndonesiaOffline() {
 
               <div className="button">
                 {/* ====== REGISTRASI OPEN ====== */}
-                <input type="submit" value="KIRIM" />
+                {/* <input type="submit" value="KIRIM" /> */}
                 {/* ====== REGISTRASI CLOSE ====== */}
-                {/* <input type="submit" value="TUTUP PENDAFTARAN" disabled /> */}
+                <input type="submit" value="TUTUP PENDAFTARAN" disabled />
               </div>
             </form>
             {/* Loader dan Status Message */}

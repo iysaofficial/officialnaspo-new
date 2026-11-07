@@ -65,10 +65,10 @@ function IndonesiaOnline() {
   }, [router]);
 
   // ====== REGISTRASI OPEN ======
-  const scriptURL =
-    "https://script.google.com/macros/s/AKfycby-oy3JeruKlRMAxuIX_qZlk5oyXHllRuoSE79IaF8LA6G4U2CH2zcqab5hdLdnv3LvGA/exec";
+  // const scriptURL =
+  //   "https://script.google.com/macros/s/AKfycby-oy3JeruKlRMAxuIX_qZlk5oyXHllRuoSE79IaF8LA6G4U2CH2zcqab5hdLdnv3LvGA/exec";
   // ====== REGISTRASI CLOSE ======
-  // const scriptURL = "";
+  const scriptURL = "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -695,9 +695,9 @@ function IndonesiaOnline() {
 
               <div className="button">
                 {/* ====== REGISTRASI OPEN ====== */}
-                <input type="submit" value="KIRIM" />
+                {/* <input type="submit" value="KIRIM" /> */}
                 {/* ====== REGISTRASI CLOSE ====== */}
-                {/* <input type="submit" value="TUTUP PENDAFTARAN" disabled /> */}
+                <input type="submit" value="TUTUP PENDAFTARAN" disabled />
               </div>
             </form>
 

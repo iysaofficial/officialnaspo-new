@@ -15,9 +15,15 @@ export default function MainHero() {
               </h1>
               <div className="main-hero-btns">
                 {/* ====== REGISTRASI OPEN ====== */}
-                <Link href="/registration/homeindo" className="main-hero-btn">
+                {/* <Link href="/registration/homeindo" className="main-hero-btn">
                   Daftar Disini ! &nbsp; <span aria-hidden>→</span>
-                </Link>
+                </Link> */}
+
+                {/* ====== REGISTRASI CLOSE ====== */}
+                <a className="main-hero-btn">
+                  Pendaftaran Ditutup ! &nbsp; <span aria-hidden>→</span>
+                </a>
+
                 <a
                   href="https://drive.google.com/drive/folders/1GSvm9F0CB-BzK1kXIpgH70fompQSDuLf?usp=sharing"
                   target="_blank"
@@ -25,11 +31,6 @@ export default function MainHero() {
                 >
                   Buku Panduan 2026&nbsp; <span aria-hidden>→</span>
                 </a>
-
-                {/* ====== REGISTRASI CLOSE ====== */}
-                {/* <a className="main-hero-btn">
-                  Tutup Pendaftaran&nbsp; <span aria-hidden>→</span>
-                </a> */}
 
                 {/* <a href="https://drive.google.com/file/d/1xhm1O3RwZKEj4WFhLZHvOmqx4aJXwURB/view?usp=sharing" target="_blank" className="main-hero-btn">
                   Trip & Tour Package 2025 &nbsp; <span aria-hidden>→</span>

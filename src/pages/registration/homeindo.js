@@ -57,7 +57,7 @@ function HomeIndo() {
           </div>
           <div className="link-web mx-auto text-center">
             {/* ====== REGISTRASI OPEN ====== */}
-            <a
+            {/* <a
               onClick={() =>
                 handleOpenModal(
                   "/registration/indo-online",
@@ -80,15 +80,15 @@ function HomeIndo() {
               style={{ cursor: "pointer" }}
             >
               INDONESIA OFFLINE<i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
 
             {/* ====== REGISTRASI CLOSE ====== */}
-            {/* <a className="btn btn-action text-center me-lg-5 ">
+            <a className="btn btn-action text-center me-lg-5 ">
               TUTUP REGISTRASI<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a className="btn btn-action text-center me-lg-5 ">
               TUTUP REGISTRASI<i className="fa-solid fa-earth-americas"></i>
-            </a> */}
+            </a>
           </div>
         </div>
       </section>
